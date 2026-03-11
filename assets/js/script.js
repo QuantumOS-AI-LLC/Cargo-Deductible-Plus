@@ -1,12 +1,3 @@
-fetch('https://ipwho.is/')
-    .then(res => res.json())
-    .then(data => {
-        if (!data.success) return;
-        if (data.region?.toLowerCase() === 'california') {
-            document.body.classList.add('is__california');
-        }
-    })
-    .catch(err => console.log(err));
 
 // Initialize AOS animation library
 AOS.init({

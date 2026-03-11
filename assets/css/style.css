@@ -310,8 +310,6 @@ body {
     background-color: white;
     border-radius: 16px;
     padding: 1.5rem;
-    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
     -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     -o-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -321,8 +319,6 @@ body {
     -webkit-transform: translateY(-8px);
         -ms-transform: translateY(-8px);
             transform: translateY(-8px);
-    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
 /* Scroll Reveal Animation */
@@ -370,7 +366,7 @@ body {
 }
 
 .circular-logo {
-    border-radius: 50%;
+    /* border-radius: 50%;
     overflow: hidden;
     background-color: black;
     width: 48px;
@@ -387,7 +383,7 @@ body {
             justify-content: center;
     border: 1px solid white;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); */
 }
 
 .hero_shapeDivider {
@@ -856,12 +852,6 @@ body {
   overflow: hidden;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
-}
-body.is__california .az__content{
-    display: none !important;
-}
-body:not(.is__california) .ca__content{
-    display: none !important;
 }
 
 
